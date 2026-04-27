@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio – Julien PECHEU</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Devicons for tech logos -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════ NAVIGATION ═══════════ -->
+  <nav id="navbar">
+    <div class="nav-brand">
+      <span class="brand-bracket">&lt;</span>
+      <span class="brand-name">Portfolio</span>
+      <span class="brand-bracket">/&gt;</span>
+    </div>
+
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#presentation">Présentation</a></li>
+      <li><a href="#cv">CV</a></li>
+      <li><a href="#formation">Formation</a></li>
+      <li><a href="#competences">Compétences</a></li>
+      <li><a href="#certification">Certification</a></li>
+      <li><a href="#stages">Stages</a></li>
+      <li><a href="#realisations">Réalisations</a></li>
+      <li><a href="#veille">Veille</a></li>
+    </ul>
+  </nav>
+
+  <!-- ═══════════ HERO ═══════════ -->
+  <header class="hero">
+    <div class="hero-grid-bg"></div>
+    <div class="hero-content reveal">
+      <p class="hero-tag">BTS SIO · Option SISR</p>
+      <h1 class="hero-name">
+        
+        Julien <span class="accent">PECHEU</span>
+      </h1>
+      <p class="hero-sub">
+        
+        Étudiant en informatique passionné par les réseaux, la cybersécurité et les systèmes.
+      </p>
+      <div class="hero-cta">
+        <a href="#presentation" class="btn-primary">Découvrir</a>
+        <a href="#cv" class="btn-ghost">Voir mon CV</a>
+      </div>
+    </div>
+    <div class="hero-deco">
+      <div class="deco-ring ring-1"></div>
+      <div class="deco-ring ring-2"></div>
+      <div class="deco-dot"></div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ═══════════ 1 — PRÉSENTATION ═══════════ -->
+    <section id="presentation" class="section section-dark">
+      <div class="container reveal">
+        <div class="section-label">01</div>
+        <h2 class="section-title">Présentation</h2>
+        <div class="presentation-grid">
+          <div class="presentation-photo">
+            </div>
+          </div>
+          <div class="presentation-text">
+            
+            <p>
+              Bonjour, je m'appelle <strong>Julien PECHEU</strong>, étudiant en deuxième année de
+              <strong>BTS Services Informatiques aux Organisations (SIO)</strong>, spécialité
+              <strong>Solutions d'Infrastructure, Systèmes et Réseaux (SISR)</strong>.
+            </p>
+            <p>
+              Passionné par l'informatique depuis mon plus jeune âge, je me spécialise dans
+              l'administration des systèmes et réseaux.
+              Mon parcours au lycée en <strong>Bac Pro Systèmes Numériques</strong> m'a
+              donné de solides bases techniques que je continue à approfondir chaque jour.
+            </p>
+            <p>
+              À la recherche de nouvelles opportunités pour mettre en pratique mes compétences,
+              n'hésitez pas à me contacter !
+            </p>
+            <div class="contact-badges">
+              
+              <a href="mailto:pecheujulienpro@orange.fr" class="badge"><i class="fa-solid fa-envelope"></i> pecheujulienpro@orange.fr</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ 2 — CV ═══════════ -->
+    <section id="cv" class="section section-alt">
+      <div class="container reveal">
+        <div class="section-label">02</div>
+        <h2 class="section-title">Curriculum Vitæ</h2>
+        <p class="section-desc">Retrouvez ci-dessous mon CV en version PDF.</p>
+
+        <div class="pdf-viewer-card">
+          <div class="pdf-toolbar">
+            <span><i class="fa-solid fa-file-pdf"></i> CV — Julien PECHEU.pdf</span>
+            
+            <a href="pdf/cv/cv.pdf" target="_blank" class="btn-sm">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i> Ouvrir
+            </a>
+          </div>
+          
+          <iframe
+            src="pdf/cv/cv.pdf"
+            title="Curriculum Vitæ"
+            class="pdf-frame"
+            loading="lazy">
+            <div class="pdf-fallback">
+              <i class="fa-solid fa-file-pdf"></i>
+              <p>Votre navigateur ne peut pas afficher le PDF.</p>
+              <a href="pdf/cv/cv.pdf" class="btn-primary" download>Télécharger le CV</a>
+            </div>
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ 3 — FORMATION ═══════════ -->
+    <section id="formation" class="section section-dark">
+      <div class="container reveal">
+        <div class="section-label">03</div>
+        <h2 class="section-title">Formation</h2>
+        <p class="section-desc">Mon parcours scolaire en informatique.</p>
+
+        <div class="timeline">
+
+          <!-- BTS SIO SISR -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <span class="timeline-badge">En cours</span>
+                  
+                  <p class="timeline-date">2024 – 2026</p>
+                </div>
+                <i class="fa-solid fa-server timeline-icon"></i>
+              </div>
+              <h3>BTS SIO – Option SISR</h3>
+              <p class="timeline-school">
+                
+                Gaspard Monge — <em>Charleville-Mezière</em>
+              </p>
+              
+              <p>
+                Le <strong>Brevet de Technicien Supérieur Services Informatiques aux Organisations
+                (BTS SIO)</strong>, option <strong>Solutions d'Infrastructure, Systèmes et Réseaux
+                (SISR)</strong>, est une formation de deux ans qui prépare aux métiers de
+                l'administration des systèmes et réseaux en entreprise.
+              </p>
+              <p>
+                La spécialité SISR couvre : l'administration de serveurs Windows et Linux,
+                la configuration d'équipements réseau Cisco, la virtualisation (VMware, Hyper-V,
+                Proxmox), la sécurité informatique, ainsi que la gestion de parcs informatiques.
+              </p>
+              <ul class="timeline-list">
+                <li>Administration systèmes & réseaux</li>
+                <li>Virtualisation d'infrastructures</li>
+                <li>Cybersécurité &amp; supervision</li>
+                <li>Configuration de switchs et routeurs</li>
+                <li>Support aux utilisateurs (GLPI, ticketing)</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Bac Pro SN RISC -->
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-card">
+              <div class="timeline-header">
+                <div>
+                  
+                  <p class="timeline-date">2022 – 2024</p>
+                </div>
+                <i class="fa-solid fa-graduation-cap timeline-icon"></i>
+              </div>
+              <h3>Bac Pro Systèmes Numériques – Option RISC</h3>
+              <p class="timeline-school">
+                
+                Jean-Baptiste Clément — <em>Vivier-au-Court</em>
+              </p>
+              
+              <p>
+                Le <strong>Baccalauréat Professionnel Systèmes Numériques</strong>, option
+                <strong>Réseaux Informatiques et Systèmes Communicants (RISC)</strong>,
+                m'a permis d'acquérir des bases solides en réseaux locaux, en câblage
+                structuré, en configuration d'équipements actifs et en administration
+                de systèmes d'exploitation.
+              </p>
+              <ul class="timeline-list">
+                <li>Infrastructure réseau &amp; câblage</li>
+                <li>Installation &amp; configuration de systèmes</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ 4 — COMPÉTENCES ═══════════ -->
+    <section id="competences" class="section section-alt">
+      <div class="container reveal">
+        <div class="section-label">04</div>
+        <h2 class="section-title">Compétences</h2>
+        <p class="section-desc">Technologies, outils et environnements maîtrisés.</p>
+
+        <!-- Langages -->
+        <div class="skill-category">
+          <h3 class="skill-category-title">
+            <i class="fa-solid fa-code"></i> Langages
+          </h3>
+          <div class="skill-grid">
+
+            <div class="skill-card">
+              <i class="devicon-html5-plain colored skill-icon-dev"></i>
+              <span>HTML5</span>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-css3-plain colored skill-icon-dev"></i>
+              <span>CSS3</span>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-mysql-plain colored skill-icon-dev"></i>
+              <span>SQL</span>
+            </div>
+            <div class="skill-card">
+              <!-- Lua n'a pas d'icône devicon standard, on utilise un emoji -->
+              <span class="skill-emoji">🌙</span>
+              <span>LUA</span>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Systèmes d'exploitation -->
+        <div class="skill-category">
+          <h3 class="skill-category-title">
+            <i class="fa-solid fa-desktop"></i> Systèmes d'exploitation
+          </h3>
+          <div class="skill-grid">
+
+            <div class="skill-card">
+              <i class="devicon-windows8-plain colored skill-icon-dev"></i>
+              <span>Windows 10/11</span>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-windows8-plain colored skill-icon-dev"></i>
+              <span>Windows Server 2012</span>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-windows8-plain colored skill-icon-dev"></i>
+              <span>Windows Server 2022</span>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-windows8-plain colored skill-icon-dev"></i>
+              <span>Windows Server 2025</span>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-debian-plain colored skill-icon-dev"></i>
+              <span>Debian 8/11/12</span>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-ubuntu-plain colored skill-icon-dev"></i>
+              <span>Ubuntu 22.04 LTS</span>
+            </div>
+            <div class="skill-card">
+              <span class="skill-emoji kali-icon">
+                <i class="fa-solid fa-dragon"></i>
+              </span>
+              <span>Kali Linux</span>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Virtualisation & Outils -->
+        <div class="skill-category">
+          <h3 class="skill-category-title">
+            <i class="fa-solid fa-cube"></i> Virtualisation &amp; Outils
+          </h3>
+          <div class="skill-grid">
+
+            <div class="skill-card">
+              <i class="devicon-virtualbox-plain colored skill-icon-dev"></i>
+              <span>VirtualBox</span>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-windows8-plain colored skill-icon-dev"></i>
+              <span>Hyper-V</span>
+            </div>
+            <div class="skill-card">
+              <span class="skill-emoji vmware-icon">
+                <i class="fa-solid fa-server"></i>
+              </span>
+              <span>ESXi 7.0 / 8.0</span>
+            </div>
+            <div class="skill-card">
+              <span class="skill-emoji proxmox-icon">
+                <i class="fa-solid fa-boxes-stacked"></i>
+              </span>
+              <span>Proxmox</span>
+            </div>
+            <div class="skill-card">
+              <span class="skill-emoji putty-icon">
+                <i class="fa-solid fa-terminal"></i>
+              </span>
+              <span>PuTTY</span>
+            </div>
+            <div class="skill-card">
+              <span class="skill-emoji filezilla-icon">
+                <i class="fa-solid fa-file-arrow-up"></i>
+              </span>
+              <span>FileZilla</span>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Matériels & Outils réseau -->
+        <div class="skill-category">
+          <h3 class="skill-category-title">
+            <i class="fa-solid fa-network-wired"></i> Matériels &amp; Outils réseau
+          </h3>
+
+          <!-- Sous-groupe : Switchs & Routeurs -->
+          <p class="skill-subgroup-label">Switchs &amp; Routeurs</p>
+          <div class="skill-grid skill-grid-mb">
+
+            <div class="skill-card">
+              <span class="skill-emoji cisco-icon">
+                <i class="fa-solid fa-sitemap"></i>
+              </span>
+              <span>Cisco</span>
+            </div>
+
+            <div class="skill-card">
+              <span class="skill-emoji aruba-icon">
+                <i class="fa-solid fa-wifi"></i>
+              </span>
+              <span>Aruba</span>
+            </div>
+
+            <div class="skill-card">
+              <span class="skill-emoji hp-icon">
+                <i class="fa-solid fa-server"></i>
+              </span>
+              <span>HP</span>
+            </div>
+
+          </div>
+
+          <!-- Sous-groupe : Outils -->
+          <p class="skill-subgroup-label">Outils</p>
+          <div class="skill-grid">
+
+            <div class="skill-card">
+              <span class="skill-emoji wireshark-icon">
+                <i class="fa-solid fa-magnifying-glass-chart"></i>
+              </span>
+              <span>Wireshark</span>
+            </div>
+
+            <div class="skill-card">
+              <span class="skill-emoji nmap-icon">
+                <i class="fa-solid fa-radar" style="font-size:1.8rem"></i>
+              </span>
+              <span>Nmap</span>
+            </div>
+
+            <div class="skill-card">
+              <i class="devicon-docker-plain colored skill-icon-dev"></i>
+              <span>Docker</span>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Systèmes & Logiciels -->
+        <div class="skill-category">
+          <h3 class="skill-category-title">
+            <i class="fa-solid fa-gears"></i> Systèmes &amp; Logiciels déployés et utilisés
+          </h3>
+
+          <!-- Sous-groupe : Linux -->
+          <p class="skill-subgroup-label"><i class="devicon-linux-plain" style="font-size:1rem;margin-right:.35rem;"></i> Linux</p>
+          <div class="skill-grid skill-grid-mb">
+
+            <div class="skill-card">
+              <span class="skill-emoji zabbix-icon"><i class="fa-solid fa-chart-line"></i></span>
+              <span>Zabbix</span>
+            </div>
+            <div class="skill-card">
+              <span class="skill-emoji glpi-icon"><i class="fa-solid fa-ticket"></i></span>
+              <span>GLPI</span>
+            </div>
+            <div class="skill-card">
+              <span class="skill-emoji wg-icon"><i class="fa-solid fa-shield-halved"></i></span>
+              <span>WireGuard</span>
+            </div>
+            <div class="skill-card">
+              <span class="skill-emoji mail-icon"><i class="fa-solid fa-envelope-open-text"></i></span>
+              <span>Postfix</span>
+            </div>
+            <div class="skill-card">
+              <span class="skill-emoji mail-icon"><i class="fa-solid fa-inbox"></i></span>
+              <span>Dovecot</span>
+            </div>
+            <div class="skill-card">
+              <span class="skill-emoji dns-icon"><i class="fa-solid fa-globe"></i></span>
+              <span>BIND9</span>
+            </div>
+            <div class="skill-card">
+              <span class="skill-emoji pfsense-icon"><i class="fa-solid fa-fire-flame-curved"></i></span>
+              <span>pfSense</span>
+            </div>
+            <div class="skill-card">
+              <span class="skill-emoji dhcp-icon"><i class="fa-solid fa-plug"></i></span>
+              <span>ISC-DHCP</span>
+            </div>
+            <div class="skill-card">
+              <span class="skill-emoji ftp-icon"><i class="fa-solid fa-file-arrow-up"></i></span>
+              <span>vsftpd</span>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-apache-plain colored skill-icon-dev"></i>
+              <span>Apache</span>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-nginx-plain colored skill-icon-dev"></i>
+              <span>Nginx</span>
+            </div>
+            <div class="skill-card">
+              <span class="skill-emoji cloud-icon"><i class="fa-solid fa-cloud"></i></span>
+              <span>Nextcloud</span>
+            </div>
+            <div class="skill-card">
+              <span class="skill-emoji radius-icon"><i class="fa-solid fa-key"></i></span>
+              <span>FreeRADIUS</span>
+            </div>
+            <div class="skill-card">
+              <span class="skill-emoji fog-icon"><i class="fa-solid fa-clone"></i></span>
+              <span>FOG</span>
+            </div>
+            <div class="skill-card">
+              <span class="skill-emoji pacemaker-icon"><i class="fa-solid fa-heart-pulse"></i></span>
+              <span>Pacemaker</span>
+            </div>
+            <div class="skill-card">
+              <span class="skill-emoji gluster-icon"><i class="fa-solid fa-database"></i></span>
+              <span>GlusterFS</span>
+            </div>
+            <div class="skill-card">
+              <span class="skill-emoji cyber-icon"><i class="fa-solid fa-bolt"></i></span>
+              <span>CyberPowerPanel</span>
+            </div>
+          </div>
+
+          <!-- Sous-groupe : Windows Server -->
+          <p class="skill-subgroup-label"><i class="devicon-windows8-plain colored" style="font-size:1rem;margin-right:.35rem;"></i> Windows Server</p>
+          <div class="skill-grid">
+
+            <div class="skill-card">
+              <span class="skill-emoji win-srv-icon"><i class="fa-solid fa-users-gear"></i></span>
+              <span>Active Directory</span>
+            </div>
+            <div class="skill-card">
+              <span class="skill-emoji win-srv-icon"><i class="fa-solid fa-sliders"></i></span>
+              <span>GPO</span>
+            </div>
+            <div class="skill-card">
+              <span class="skill-emoji dhcp-icon"><i class="fa-solid fa-plug"></i></span>
+              <span>DHCP</span>
+            </div>
+            <div class="skill-card">
+              <span class="skill-emoji dns-icon"><i class="fa-solid fa-globe"></i></span>
+              <span>DNS</span>
+            </div>
+            <div class="skill-card">
+              <span class="skill-emoji win-srv-icon"><i class="fa-solid fa-folder-open"></i></span>
+              <span>File Server</span>
+            </div>
+            <div class="skill-card">
+              <i class="devicon-windows8-plain colored skill-icon-dev"></i>
+              <span>Hyper-V</span>
+            </div>
+            <div class="skill-card">
+              <span class="skill-emoji win-srv-icon"><i class="fa-solid fa-arrow-up-from-bracket"></i></span>
+              <span>WSUS</span>
+            </div>
+            <div class="skill-card">
+              <span class="skill-emoji win-srv-icon"><i class="fa-solid fa-calendar-check"></i></span>
+              <span>Task Scheduler</span>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════ 5 — CERTIFICATION ═══════════ -->
+    <section id="certification" class="section section-dark">
+      <div class="container reveal">
+        <div class="section-label">05</div>
+        <h2 class="section-title">Certification</h2>
+        <p class="section-desc">Ma certification obtenue durant ma formation.</p>
+
+        <div class="cert-wrapper">
+          <div class="cert-info-card">
+            <div class="cert-badge-icon">
+              <i class="fa-solid fa-certificate"></i>
+            </div>
+            <div class="cert-info">
+              
+              <h3>PIX</h3>
+              <p>Ministère de l'Éducation — <em>01/2026</em></p>
+              <p class="cert-desc">
+                
+              </p>
+              <a href="pdf/certification/certification.pdf" target="_blank" class="btn-primary">
+                <i class="fa-solid fa-file-pdf"></i> Voir le certificat
+              </a>
+            </div>
+          </div>
+
+          <div class="pdf-viewer-card">
+            <div class="pdf-toolbar">
+              <span><i class="fa-solid fa-file-pdf"></i> Certification.pdf</span>
+             
+              <a href="pdf/certification/certification.pdf" target="_blank" class="btn-sm">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Ouvrir
+              </a>
+            </div>
+           
+            <iframe src="pdf/certification/certification.pdf" title="Certification" class="pdf-frame" loading="lazy">
+              <div class="pdf-fallback">
+                <i class="fa-solid fa-file-pdf"></i>
+                <p>Votre navigateur ne peut pas afficher le PDF.</p>
+                <a href="pdf/certification/certification.pdf" class="btn-primary" download>Télécharger</a>
+              </div>
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ 6 — STAGES ═══════════ -->
+    <section id="stages" class="section section-alt">
+      <div class="container reveal">
+        <div class="section-label">06</div>
+        <h2 class="section-title">Mes Stages</h2>
+        <p class="section-desc">Expériences professionnelles réalisées durant ma formation.</p>
+
+        <!-- Tableau de synthèse global -->
+        <div class="synth-block">
+          <h3 class="sub-title"><i class="fa-solid fa-table-list"></i> Tableau de Synthèse</h3>
+          <div class="pdf-viewer-card">
+            <div class="pdf-toolbar">
+              <span><i class="fa-solid fa-file-pdf"></i> Tableau de Synthèse.pdf</span>
+              
+              <a href="pdf/stages/tableau-synthese.pdf" target="_blank" class="btn-sm">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Ouvrir
+              </a>
+            </div>
+            <iframe src="pdf/stages/tableau-synthese.pdf" title="Tableau de Synthèse" class="pdf-frame pdf-frame-short" loading="lazy">
+              <div class="pdf-fallback">
+                <a href="pdf/stages/tableau-synthese.pdf" class="btn-primary" download>Télécharger</a>
+              </div>
+            </iframe>
+          </div>
+        </div>
+
+        <!-- Stages accordion -->
+        <div class="stages-grid">
+
+          <!-- Stage 1ère année -->
+          <div class="stage-card">
+            <div class="stage-header" onclick="toggleStage(this)">
+              <div>
+                <span class="stage-badge">1ère Année</span>
+                <h3>DSI Pôle Bureautique — Première année</h3>
+                
+                <p class="stage-meta"><i class="fa-solid fa-building"></i> Conseil Départemental des Ardennes &nbsp;|&nbsp; <i class="fa-solid fa-calendar"></i> Du 02/06 au 03/07 2025</p>
+              </div>
+              <i class="fa-solid fa-chevron-down stage-chevron"></i>
+            </div>
+            <div class="stage-body">
+              
+                Durant ce premier stage, j'ai effectué les missions suivantes au sein du conseil départemental
+                <strong>Nom Entreprise</strong> :
+              </p>
+              <ul>
+                <li>Masterisation de PC portables, installation d'antivirus et logiciels métier</li>
+                <li>Remonter GLPI sur l'usage du stockage interne des postes agent</li>
+                <li>Contact des agents pour prise en main et optimisation de l'espace disque</li>
+                <li>Formation et information par mail et téléphone sur les bons usages pour limiter la saturation de l’espace disque</li>
+              </ul>
+              <p>
+              
+                Ce stage m'a permis de consolider mes compétences en gestion de réseaux et
+                d'acquérir de l'expérience en environnement professionnel.
+              </p>
+
+              <div class="stage-pdf-block">
+                <div class="pdf-viewer-card">
+                  <div class="pdf-toolbar">
+                    <span><i class="fa-solid fa-file-pdf"></i> Attestation de fin de stage — 1ère année</span>
+                    
+                    <a href="pdf/stages/stage1-attestation.pdf" target="_blank" class="btn-sm">
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i> Ouvrir
+                    </a>
+                  </div>
+                  <iframe src="pdf/stages/stage1-attestation.pdf" title="Attestation stage 1" class="pdf-frame pdf-frame-short" loading="lazy">
+                    <div class="pdf-fallback">
+                      <a href="pdf/stages/stage1-attestation.pdf" class="btn-primary" download>Télécharger</a>
+                    </div>
+                  </iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Stage 2ème année -->
+          <div class="stage-card">
+            <div class="stage-header" onclick="toggleStage(this)">
+              <div>
+                <span class="stage-badge stage-badge-2">2ème Année</span>
+                <h3>CMIL — Deuxième année</h3>
+                
+                <p class="stage-meta"><i class="fa-solid fa-building"></i> Région Grand Est &nbsp;|&nbsp; <i class="fa-solid fa-calendar"></i> Du 12/01 au 13/02 2026</p>
+              </div>
+              <i class="fa-solid fa-chevron-down stage-chevron"></i>
+            </div>
+            <div class="stage-body">
+             
+              <p>
+                Ce second stage s'est déroulé au sein de la <strong>région Grand Est</strong>, où j'ai
+                contribué aux missions suivantes :
+              </p>
+              <ul>
+                <li>Recherche d'une solution pour une procédure d'extinction lors de coupure électrique puis déploiement de celle-ci</li>
+                <li>Assistance aux utilisateurs (élèves)</li>
+                <li>Création de documentation sur l'usage et l'installation de la solution</li>
+                <li>Installation, création d’un laboratoir de tests et tests sur la solution pour une procédure d'extinction lors de coupure électrique</li>
+                <li>Observation et assistance sur le mouvement d'un cœur de réseau et correction des erreurs erreur de configuration des switch</li>
+              </ul>
+              <p>
+              
+                Ce stage m'a permis de renforcer mon autonomie et d'approfondir mes connaissances
+                en virtualisation et en administration des systèmes d'information.
+              </p>
+
+              <div class="stage-pdf-block">
+                <div class="pdf-viewer-card">
+                  <div class="pdf-toolbar">
+                    <span><i class="fa-solid fa-file-pdf"></i> Attestation de fin de stage — 2ème année</span>
+
+                    <a href="pdf/stages/stage2-attestation.pdf" target="_blank" class="btn-sm">
+                      <i class="fa-solid fa-arrow-up-right-from-square"></i> Ouvrir
+                    </a>
+                  </div>
+                  <iframe src="pdf/stages/stage2-attestation.pdf" title="Attestation stage 2" class="pdf-frame pdf-frame-short" loading="lazy">
+                    <div class="pdf-fallback">
+                      <a href="pdf/stages/stage2-attestation.pdf" class="btn-primary" download>Télécharger</a>
+                    </div>
+                  </iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ 7 — RÉALISATIONS ═══════════ -->
+    <section id="realisations" class="section section-dark">
+      <div class="container reveal">
+        <div class="section-label">07</div>
+        <h2 class="section-title">Réalisations</h2>
+        <p class="section-desc">Projets et travaux pratiques réalisés durant ma formation.</p>
+
+        <div class="real-grid">
+
+         
+          <div class="real-card">
+            <div class="real-num">01</div>
+            <div class="real-icon"><i class="fa-solid fa-folder-open"></i></div>
+            <h4>
+             
+              GLPI
+            </h4>
+            <p>
+              Déploiement de GLPi création d'une FAQ et connexion des agents.
+            </p>
+            <div class="real-actions">
+              
+              <a href="pdf/realisations/realisation1.pdf" target="_blank" class="btn-sm">
+                <i class="fa-solid fa-eye"></i> Voir
+              </a>
+              <a href="pdf/realisations/realisation1.pdf" download class="btn-sm btn-ghost-sm">
+                <i class="fa-solid fa-download"></i>
+              </a>
+            </div>
+          </div>
+
+          
+          <div class="real-card">
+            <div class="real-num">02</div>
+            <div class="real-icon"><i class="fa-solid fa-folder-open"></i></div>
+            <h4>Zabbix</h4>
+            <p>Déploiement de Zabbix, connexion des agents puis tests de fonctionnement.</p>
+            <div class="real-actions">
+              <a href="pdf/realisations/realisation2.pdf" target="_blank" class="btn-sm"><i class="fa-solid fa-eye"></i> Voir</a>
+              <a href="pdf/realisations/realisation2.pdf" download class="btn-sm btn-ghost-sm"><i class="fa-solid fa-download"></i></a>
+            </div>
+          </div>
+
+          
+          <div class="real-card">
+            <div class="real-num">03</div>
+            <div class="real-icon"><i class="fa-solid fa-folder-open"></i></div>
+            <h4>Pare-feu logiciel</h4>
+            <p>Déploiement de ufw  création de règles et tests.</p>
+            <div class="real-actions">
+              <a href="pdf/realisations/realisation3.pdf" target="_blank" class="btn-sm"><i class="fa-solid fa-eye"></i> Voir</a>
+              <a href="pdf/realisations/realisation3.pdf" download class="btn-sm btn-ghost-sm"><i class="fa-solid fa-download"></i></a>
+            </div>
+          </div>
+
+          
+          <div class="real-card">
+            <div class="real-num">04</div>
+            <div class="real-icon"><i class="fa-solid fa-folder-open"></i></div>
+            <h4>VPN de Site à Site</h4>
+            <p>Routage Intersite puis cryptage des communications.</p>
+            <div class="real-actions">
+              <a href="pdf/realisations/realisation4.pdf" target="_blank" class="btn-sm"><i class="fa-solid fa-eye"></i> Voir</a>
+              <a href="pdf/realisations/realisation4.pdf" download class="btn-sm btn-ghost-sm"><i class="fa-solid fa-download"></i></a>
+            </div>
+          </div>
+
+         
+          <div class="real-card">
+            <div class="real-num">05</div>
+            <div class="real-icon"><i class="fa-solid fa-folder-open"></i></div>
+            <h4>FOG</h4>
+            <p>Installation du Serveur Fog, télécharment d'une image et déploiement de celle-ci via PXE.</p>
+            <div class="real-actions">
+              <a href="pdf/realisations/realisation5.pdf" target="_blank" class="btn-sm"><i class="fa-solid fa-eye"></i> Voir</a>
+              <a href="pdf/realisations/realisation5.pdf" download class="btn-sm btn-ghost-sm"><i class="fa-solid fa-download"></i></a>
+            </div>
+          </div>
+
+          
+          <div class="real-card">
+            <div class="real-num">06</div>
+            <div class="real-icon"><i class="fa-solid fa-folder-open"></i></div>
+            <h4>Serveur Mail</h4>
+            <p>Création du serveur Mail en local configuration du client et tests.</p>
+            <div class="real-actions">
+              <a href="pdf/realisations/realisation6.pdf" target="_blank" class="btn-sm"><i class="fa-solid fa-eye"></i> Voir</a>
+              <a href="pdf/realisations/realisation6.pdf" download class="btn-sm btn-ghost-sm"><i class="fa-solid fa-download"></i></a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════ 8 — VEILLE INFORMATIQUE ═══════════ -->
+    <section id="veille" class="section section-alt">
+      <div class="container reveal">
+        <div class="section-label">08</div>
+        <h2 class="section-title">Veille Informatique</h2>
+        <p class="section-desc">Suivi des évolutions technologiques dans mon domaine.</p>
+
+        <div class="veille-tabs">
+          <button class="veille-tab active" onclick="switchVeille(this, 'vpn')">
+            <i class="fa-solid fa-shield-halved"></i> VPN Serveur à Serveur
+          </button>
+          <button class="veille-tab" onclick="switchVeille(this, 'snmp')">
+            <i class="fa-solid fa-tower-broadcast"></i> Protocole SNMP
+          </button>
+          <button class="veille-tab" onclick="switchVeille(this, 'blockchain')">
+            <i class="fa-solid fa-link-slash"></i> Blockchain &amp; Stockage
+          </button>
+        </div>
+
+        <!-- ── Veille VPN ────────────────────────────────── -->
+        <div class="veille-panel" id="panel-vpn">
+          <div class="veille-card">
+            <div class="veille-header">
+              <div class="veille-icon-wrap"><i class="fa-solid fa-shield-halved"></i></div>
+              <div>
+                <h3>Les VPN — Tunnel Serveur à Serveur</h3>
+                <span class="veille-date">Dernière mise à jour : 18/12/2025</span>
+              </div>
+            </div>
+            <div class="veille-content">
+
+              <h4>Définition &amp; enjeux</h4>
+              <p>
+                Un <strong>VPN (Virtual Private Network) serveur à serveur</strong>, appelé également
+                VPN <em>site à site</em>, est un tunnel chiffré établi de façon permanente entre les
+                passerelles réseau de deux sites distants. Contrairement au VPN client-serveur (road
+                warrior), il est totalement transparent pour les utilisateurs finaux : le trafic
+                inter-sites circule comme s'il était sur le même LAN, sans aucune action de leur part.
+              </p>
+              <p>
+                L'enjeu principal est de garantir la <strong>confidentialité</strong>, l'<strong>intégrité</strong>
+                et la <strong>disponibilité</strong> des échanges entre sites, tout en maîtrisant les coûts
+                (pas de ligne dédiée MPLS nécessaire si Internet suffit).
+              </p>
+
+              <h4>Architecture &amp; fonctionnement technique</h4>
+              <p>
+                Le tunnel est négocié entre deux équipements de bordure (routeurs, pare-feux, serveurs
+                Linux avec WireGuard/OpenVPN). La mise en place se déroule en deux phases pour IPsec :
+              </p>
+              <ul>
+                <li><strong>Phase 1 (IKE)</strong> — Authentification mutuelle des deux extrémités et
+                  négociation d'une clé de session via Diffie-Hellman. Le résultat est une SA (Security
+                  Association) IKE.</li>
+                <li><strong>Phase 2 (IPsec)</strong> — Création des SA IPsec qui définissent les
+                  algorithmes de chiffrement (AES-256) et d'intégrité (SHA-256) appliqués aux données.
+                  Les paquets IP sont encapsulés en mode <em>tunnel</em> (nouvel en-tête IP) ou
+                  <em>transport</em>.</li>
+              </ul>
+              <p>
+                Avec <strong>WireGuard</strong>, la philosophie est radicalement différente : chaque
+                pair possède une paire de clés Curve25519. Le handshake (Noise Protocol Framework)
+                est ultra-rapide et la reprise de session après coupure est quasi instantanée. Le code
+                source (~4 000 lignes) est environ 70× plus petit qu'OpenVPN, réduisant drastiquement
+                la surface d'attaque.
+              </p>
+
+              <h4>Protocoles comparés</h4>
+              <ul>
+                <li><strong>IPsec/IKEv2</strong> — Standard industriel, natif sur Cisco/Fortinet/pfSense.
+                  Très interopérable, mais configuration complexe. Recommandé pour les liaisons
+                  entreprise-entreprise.</li>
+                <li><strong>OpenVPN</strong> — Basé sur TLS 1.3, tourne sur UDP 1194 ou TCP 443
+                  (utile en environnement filtré). Logiciel libre, très stable, multi-plateforme.</li>
+                <li><strong>WireGuard</strong> — UDP uniquement, chiffrement moderne (ChaCha20-Poly1305),
+                  latence très basse. Intégré au noyau Linux depuis 5.6. Idéal pour les infrastructures
+                  modernes et les environnements Linux.</li>
+                <li><strong>GRE + IPsec</strong> — Encapsulation GRE pour acheminer du routage dynamique
+                  (OSPF, BGP) dans le tunnel, chiffrement ajouté par IPsec.</li>
+              </ul>
+
+              <h4>Sécurité &amp; bonnes pratiques</h4>
+              <ul>
+                <li>Utiliser des algorithmes robustes : AES-256-GCM, SHA-256 minimum, DH group 14+.</li>
+                <li>Rotation régulière des clés pré-partagées (PSK) ou utilisation de certificats PKI.</li>
+                <li>Surveiller les tunnels via SNMP ou Zabbix pour détecter les coupures.</li>
+                <li>Segmenter le trafic : limiter les flux autorisés à traverser le tunnel (ACL/firewall).</li>
+                <li>Journaliser et auditer les établissements/ruptures de tunnels.</li>
+              </ul>
+
+              <h4>Cas d'usage en entreprise</h4>
+              <p>
+                Connexion d'agences au siège social, accès sécurisé à un datacenter distant,
+                liaison cloud hybride (on-premise ↔ AWS/Azure via VPN Gateway), ou interconnexion
+                de zones réseau isolées dans une infrastructure industrielle (SCADA, IoT).
+              </p>
+
+              <h4>Mise en pratique — WireGuard sur Debian</h4>
+              <div class="veille-code">
+                <span class="code-comment"># Installation</span><br>
+                apt install wireguard<br>
+                <span class="code-comment"># Génération de clés</span><br>
+                wg genkey | tee privatekey | wg pubkey &gt; publickey<br>
+                <span class="code-comment"># Configuration /etc/wireguard/wg0.conf (serveur)</span><br>
+                [Interface]<br>
+                Address = 10.0.0.1/24<br>
+                ListenPort = 51820<br>
+                PrivateKey = &lt;clé_privée&gt;<br>
+                [Peer]<br>
+                PublicKey = &lt;clé_publique_client&gt;<br>
+                AllowedIPs = 10.0.0.2/32, 192.168.2.0/24<br>
+                <span class="code-comment"># Démarrage</span><br>
+                wg-quick up wg0
+              </div>
+
+              <div class="veille-sources">
+                <h4><i class="fa-solid fa-link"></i> Sources</h4>
+                <ul>
+                  <li><a href="https://www.wireguard.com/papers/wireguard.pdf" target="_blank">WireGuard — Whitepaper officiel (J. Donenfeld)</a></li>
+                  <li><a href="https://wiki.debian.org/WireGuard" target="_blank">Debian Wiki — WireGuard</a></li>
+                  <li><a href="https://docs.netgate.com/pfsense/en/latest/vpn/ipsec/" target="_blank">pfSense — Documentation IPsec</a></li>
+                  <li><a href="#" target="_blank">Source 4 — À compléter</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ── Veille SNMP ───────────────────────────────── -->
+        <div class="veille-panel hidden" id="panel-snmp">
+          <div class="veille-card">
+            <div class="veille-header">
+              <div class="veille-icon-wrap"><i class="fa-solid fa-tower-broadcast"></i></div>
+              <div>
+                <h3>Protocole SNMP — Supervision réseau</h3>
+                <span class="veille-date">Dernière mise à jour : 04/03/2026</span>
+              </div>
+            </div>
+            <div class="veille-content">
+
+              <h4>Définition &amp; rôle</h4>
+              <p>
+                Le <strong>Simple Network Management Protocol (SNMP)</strong> est un protocole
+                applicatif standardisé (RFC 1157, 3411–3418) fonctionnant sur UDP, ports
+                <em>161</em> (requêtes) et <em>162</em> (traps). Il permet la <strong>supervision</strong>,
+                la <strong>collecte de métriques</strong> et la <strong>configuration à distance</strong>
+                d'équipements hétérogènes : routeurs, switchs, serveurs, imprimantes, UPS, sondes
+                environnementales, etc.
+              </p>
+
+              <h4>Architecture manager / agent</h4>
+              <p>
+                L'architecture SNMP repose sur trois composants fondamentaux :
+              </p>
+              <ul>
+                <li><strong>Agent SNMP</strong> — Démon s'exécutant sur l'équipement supervisé
+                  (ex. : <em>snmpd</em> sur Linux). Il expose les données sous forme d'une arborescence
+                  d'objets : la <strong>MIB (Management Information Base)</strong>.</li>
+                <li><strong>Manager SNMP</strong> — Système de supervision centralisé (Zabbix, Nagios,
+                  PRTG, LibreNMS) qui envoie des requêtes GET/GETNEXT/GETBULK aux agents et traite
+                  les traps entrants.</li>
+                <li><strong>MIB</strong> — Base de données hiérarchique (OID tree) décrivant chaque
+                  variable mesurable. Les OID standard (RFC 1213 — MIB-II) couvrent interfaces, IP,
+                  TCP. Les MIB propriétaires (Cisco, HP…) ajoutent des métriques spécifiques.</li>
+              </ul>
+
+              <h4>Types de messages</h4>
+              <ul>
+                <li><strong>GET</strong> — Lecture d'un OID précis (ex. : charge CPU).</li>
+                <li><strong>GETNEXT / GETBULK</strong> — Parcours ou récupération en masse de la MIB.</li>
+                <li><strong>SET</strong> — Modification d'une variable (ex. : redémarrage d'une interface).</li>
+                <li><strong>TRAP / INFORM</strong> — Notification proactive envoyée par l'agent au
+                  manager lors d'un événement (lien down, seuil dépassé). INFORM ajoute un accusé de
+                  réception.</li>
+              </ul>
+
+              <h4>Versions &amp; sécurité</h4>
+              <ul>
+                <li><strong>SNMPv1</strong> — Authentification par <em>community string</em> en clair.
+                  À éviter en production.</li>
+                <li><strong>SNMPv2c</strong> — GETBULK plus performant, toujours sans chiffrement.
+                  Encore très répandu sur du matériel ancien.</li>
+                <li><strong>SNMPv3</strong> — Apporte un modèle de sécurité complet :
+                  authentification (HMAC-MD5 ou HMAC-SHA), chiffrement du payload (DES ou AES-128/256)
+                  et contrôle d'accès (VACM). <strong>Seule version recommandée en production.</strong></li>
+              </ul>
+
+              <h4>Mise en œuvre pratique</h4>
+              <p>
+                Dans un contexte SISR, SNMP est couplé à <strong>Zabbix</strong> pour la supervision
+                d'infrastructure. Zabbix interroge les agents toutes les 30 s à 5 min, stocke les
+                métriques dans MariaDB et déclenche des alertes (email, Slack) via des déclencheurs
+                (triggers). Les données peuvent être visualisées dans Grafana via le plugin
+                Zabbix-Grafana ou le connecteur native.
+              </p>
+
+              <h4>Configuration agent sur Debian</h4>
+              <div class="veille-code">
+                <span class="code-comment"># Installation</span><br>
+                apt install snmpd snmp<br>
+                <span class="code-comment"># /etc/snmp/snmpd.conf (SNMPv3)</span><br>
+                createUser monUser SHA "motdepasse_auth" AES "motdepasse_chiffrement"<br>
+                rouser monUser priv<br>
+                agentaddress udp:161<br>
+                view systemonly included .1.3.6.1.2.1<br>
+                <span class="code-comment"># Test depuis le manager</span><br>
+                snmpwalk -v3 -l authPriv -u monUser -a SHA \<br>
+                &nbsp;&nbsp;-A "motdepasse_auth" -x AES \<br>
+                &nbsp;&nbsp;-X "motdepasse_chiffrement" 192.168.1.1 .1.3.6
+              </div>
+
+              <h4>OID courants à surveiller</h4>
+              <ul>
+                <li><code>.1.3.6.1.2.1.1.1.0</code> — sysDescr (description du système)</li>
+                <li><code>.1.3.6.1.2.1.2.2.1.8</code> — ifOperStatus (état des interfaces)</li>
+                <li><code>.1.3.6.1.2.1.25.3.3.1.2</code> — hrProcessorLoad (charge CPU)</li>
+                <li><code>.1.3.6.1.2.1.25.2.3.1.6</code> — hrStorageUsed (espace disque utilisé)</li>
+              </ul>
+
+              <div class="veille-sources">
+                <h4><i class="fa-solid fa-link"></i> Sources</h4>
+                <ul>
+                  <li><a href="https://datatracker.ietf.org/doc/html/rfc3411" target="_blank">RFC 3411 — Architecture SNMPv3 (IETF)</a></li>
+                  <li><a href="https://www.zabbix.com/documentation/current/en/manual/config/items/itemtypes/snmp" target="_blank">Zabbix — Documentation SNMP</a></li>
+                  <li><a href="https://net-snmp.sourceforge.io/docs/man/snmpd.conf.html" target="_blank">Net-SNMP — Manuel snmpd.conf</a></li>
+                  <li><a href="#" target="_blank">Source 4 — À compléter</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ── Veille Blockchain & Stockage ─────────────── -->
+        <div class="veille-panel hidden" id="panel-blockchain">
+          <div class="veille-card">
+            <div class="veille-header">
+              <div class="veille-icon-wrap"><i class="fa-solid fa-link-slash"></i></div>
+              <div>
+                <h3>Décentralisation du stockage de données par la blockchain</h3>
+                <span class="veille-date">Dernière mise à jour : 20/04/2026</span>
+              </div>
+            </div>
+            <div class="veille-content">
+
+              <h4>Contexte &amp; problématique</h4>
+              <p>
+                Le modèle de stockage de données dominant repose sur des <strong>silos centralisés</strong> :
+                GAFAM, hébergeurs cloud (AWS S3, Azure Blob, Google Cloud Storage). Si ces services
+                offrent disponibilité et facilité d'usage, ils soulèvent des questions fondamentales :
+                qui détient réellement les données ? Qui peut y accéder ? Que se passe-t-il en cas de
+                fermeture ou de décision unilatérale du prestataire ?
+              </p>
+              <p>
+                La <strong>blockchain</strong> et les technologies associées proposent une réponse par
+                la décentralisation : distribuer le contrôle entre de nombreux nœuds indépendants,
+                sans autorité centrale unique.
+              </p>
+
+              <h4>Fonctionnement de la blockchain</h4>
+              <p>
+                Une blockchain est un <strong>registre distribué immuable</strong> : chaque bloc
+                contient un ensemble de transactions, un horodatage et l'empreinte cryptographique
+                (hash SHA-256 ou Keccak-256) du bloc précédent. Modifier un bloc passé invaliderait
+                tous les blocs suivants, ce qui est détecté immédiatement par le réseau.
+              </p>
+              <ul>
+                <li><strong>Mécanisme de consensus</strong> — Les nœuds s'accordent sur l'état du
+                  registre via des algorithmes : Proof of Work (PoW, énergivore), Proof of Stake (PoS,
+                  plus économe), Delegated PoS, etc.</li>
+                <li><strong>Contrats intelligents (Smart Contracts)</strong> — Programmes autonomes
+                  déployés sur la chaîne (Ethereum, Solana) qui s'exécutent automatiquement dès que
+                  des conditions prédéfinies sont remplies, sans intermédiaire.</li>
+                <li><strong>Clés cryptographiques</strong> — Chaque participant possède une paire
+                  clé privée / clé publique. La clé privée signe les transactions ; la clé publique
+                  constitue l'adresse identifiable sur le réseau.</li>
+              </ul>
+
+              <h4>Stockage décentralisé — IPFS &amp; Filecoin</h4>
+              <p>
+                Le stockage de fichiers <em>directement</em> sur une blockchain est prohibitif en
+                coût et en taille. La solution retenue est hybride :
+              </p>
+              <ul>
+                <li><strong>IPFS (InterPlanetary File System)</strong> — Protocole P2P d'adressage
+                  par contenu. Chaque fichier reçoit une empreinte unique (CID — Content Identifier).
+                  Le fichier est fragmenté en blocs répartis sur de multiples nœuds. Pour récupérer
+                  un fichier, on demande son CID au réseau : n'importe quel nœud qui le possède peut
+                  répondre. L'intégrité est garantie par le hash.</li>
+                <li><strong>Filecoin</strong> — Couche incitative économique construite sur IPFS.
+                  Les fournisseurs de stockage sont rémunérés en FIL (jeton natif) pour héberger des
+                  données. Les contrats de stockage sont enregistrés sur la blockchain Filecoin,
+                  rendant les engagements vérifiables et transparents.</li>
+                <li><strong>Arweave</strong> — Alternative orientée stockage permanent : un paiement
+                  unique couvre le stockage à perpétuité grâce à un fond de dotation algorithmique.</li>
+              </ul>
+
+              <h4>Souveraineté des données utilisateur</h4>
+              <p>
+                La décentralisation redonne aux utilisateurs le <strong>contrôle effectif</strong>
+                de leurs données selon plusieurs axes :
+              </p>
+              <ul>
+                <li><strong>Auto-hébergement sans tiers de confiance</strong> — Les données sont
+                  chiffrées côté client avant d'être stockées sur le réseau. Sans la clé privée de
+                  l'utilisateur, personne ne peut lire le contenu, pas même les opérateurs de nœuds.</li>
+                <li><strong>Résistance à la censure</strong> — Un contenu publié sur IPFS ne peut
+                  pas être supprimé unilatéralement par un acteur central. Sa disponibilité dépend
+                  du nombre de nœuds qui l'épinglent (pin).</li>
+                <li><strong>Portabilité &amp; interopérabilité</strong> — Le CID d'un fichier est
+                  universel : il peut être référencé dans n'importe quelle application compatible IPFS,
+                  sans verrouillage propriétaire (vendor lock-in).</li>
+                <li><strong>Traçabilité des accès</strong> — Les smart contracts permettent de définir
+                  des règles d'accès auditables : qui peut lire, modifier ou supprimer une donnée, avec
+                  une trace immuable de chaque autorisation accordée.</li>
+              </ul>
+
+              <h4>Limites &amp; défis actuels</h4>
+              <ul>
+                <li><strong>Persistance</strong> — Un fichier IPFS non épinglé peut disparaître si
+                  aucun nœud ne le conserve. Filecoin ou des services de pinning (Pinata, Web3.storage)
+                  compensent ce risque.</li>
+                <li><strong>Confidentialité par défaut</strong> — IPFS est public ; le chiffrement
+                  des données avant publication est indispensable pour les usages sensibles.</li>
+                <li><strong>Performance</strong> — La latence de récupération peut être élevée pour
+                  des fichiers peu populaires. Les accélérateurs comme les gateways HTTP (Cloudflare
+                  IPFS Gateway) pallient ce problème pour la consultation.</li>
+                <li><strong>Régulation</strong> — Le cadre juridique (RGPD, droit à l'oubli) est
+                  difficilement conciliable avec l'immuabilité de la blockchain. Des solutions
+                  comme le chiffrement des données puis la destruction de la clé permettent une
+                  « suppression effective » sans altérer la chaîne.</li>
+              </ul>
+
+              <h4>Applications concrètes</h4>
+              <p>
+                Partage de documents médicaux inter-établissements, archivage d'actes notariaux,
+                stockage de preuves judiciaires infalsifiables, diplômes vérifiables en ligne
+                (EduCTX, MIT Digital Diplomas), gestion décentralisée d'identités numériques
+                (DID — Decentralized Identifiers, W3C).
+              </p>
+
+              <div class="veille-sources">
+                <h4><i class="fa-solid fa-link"></i> Sources</h4>
+                <ul>
+                  <li><a href="https://docs.ipfs.tech/concepts/what-is-ipfs/" target="_blank">IPFS — Documentation officielle</a></li>
+                  <li><a href="https://spec.filecoin.io/" target="_blank">Filecoin — Spécification du protocole</a></li>
+                  <li><a href="https://ethereum.org/fr/developers/docs/" target="_blank">Ethereum — Documentation développeurs</a></li>
+                  <li><a href="https://www.w3.org/TR/did-core/" target="_blank">W3C — Decentralized Identifiers (DID) Core</a></li>
+                  <li><a href="#" target="_blank">Source 5 — À compléter</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════ FOOTER ═══════════ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span class="brand-bracket">&lt;</span>
+          <span class="brand-name">Portfolio</span>
+          <span class="brand-bracket">/&gt;</span>
+        </div>
+        <p class="footer-sub">
+          
+          Julien Pécheu — BTS SIO SISR &copy; <span id="year"></span>
+        </p>
+        <div class="footer-links">
+          <a href="mailto:pecheujulienpro@orange.fr"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
